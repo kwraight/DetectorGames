@@ -1,0 +1,20 @@
+#These files are meant as simple demonstrations of detector concepts
+
+alphas.py	
+Plots in terminal alpha hit patterns on array, applies THL and clusters	Uses clusteringClass.py
+
+parameters.py	
+Runs simulation of alphas on array, clusters and saves parameters of each event to root file: signal, size, sizeX, sizeY, multiplicity	Uses clusteringClass.py
+
+clusteringClass.py	
+Class of functions used by alphas.py and parameters.py	
+
+planes.py	
+Simulation of hits on arrays with front, side projection and top projection displayed - like telescope	
+
+diffusion.py	
+1D diffusion simulation	
+
+bulkVis.py	
+3D simulation of diffusion of charge in bulk, displayed on 6 faces of cube	
+(In Progress)
